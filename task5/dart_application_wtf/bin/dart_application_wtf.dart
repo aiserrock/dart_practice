@@ -1,7 +1,7 @@
 import 'package:dart_application_wtf/classes/result.dart';
 
 void main() {
-  final result = Result().findUnicCell(commands: 'RRSRRLRR');
+  final result = Result().findLuckyTicket(amountFirstThreeNumbers: 2);
   print(
-      'Number unic cells = ${result.countUnicCells} and execution time = ${result.timeExecuting} seconds');
+      'Number lucky tickets = ${result.numberLuckyTickets} and execution time = ${result.timeExecuting} seconds');
 }

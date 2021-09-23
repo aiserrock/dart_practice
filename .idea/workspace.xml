@@ -1,16 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21af4ced-2974-4ee2-af73-36ec84013938" name="Changes" comment="" />
+    <list default="true" id="21af4ced-2974-4ee2-af73-36ec84013938" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dart_practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dart_practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.idea/dart_application_wtf.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.idea/libraries/Dart_SDK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/analysis_options.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/bin/dart_application_wtf.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/lib/classes/result.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taks4/dart_application_wtf/test/dart_application_wtf_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task5/dart_application_wtf/.idea/dart_application_wtf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task5/dart_application_wtf/.idea/dart_application_wtf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task5/dart_application_wtf/bin/dart_application_wtf.dart" beforeDir="false" afterPath="$PROJECT_DIR$/task5/dart_application_wtf/bin/dart_application_wtf.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task5/dart_application_wtf/lib/classes/result.dart" beforeDir="false" afterPath="$PROJECT_DIR$/task5/dart_application_wtf/lib/classes/result.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task5/dart_application_wtf/test/dart_application_wtf_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/task5/dart_application_wtf/test/dart_application_wtf_test.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1yVVJSi2wqVkBCryubluKXgVOGP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,6 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -31,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632336674377</updated>
       <workItem from="1632336677048" duration="9000" />
+      <workItem from="1632382102050" duration="532000" />
     </task>
     <servers />
   </component>

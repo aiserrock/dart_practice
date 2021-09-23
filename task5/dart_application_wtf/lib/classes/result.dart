@@ -1,49 +1,32 @@
 class Result {
-  final int countUnicCells;
+  final int numberLuckyTickets;
   final double timeExecuting;
 
   Result({
-    this.countUnicCells = 0,
+    this.numberLuckyTickets = 0,
     this.timeExecuting = 0,
   });
 
-  /// Нахождение уникальных клеток
-  /// [countRectangles] которые посетил робот
-  Result findUnicCell({
-    required String commands,
+  /// Нахождение кол-ва счастливых билетов
+  /// [numberLuckyTickets]
+  Result findLuckyTicket({
+    required int amountFirstThreeNumbers,
   }) {
     const SECONDS_IN_MILLISECONDS = 0.001;
     final time1 = DateTime.now();
-    late final countUnicCells;
-    var unicR = 0;
-    var unicL = 0;
-    var currentL = 0;
-    var currentR = 0;
-    final list = commands.split('');
-    for (var e in list) {
-      switch (e) {
-        case 'R':
-          currentL--;
-          currentR++;
-          if (currentR > unicR) {
-            unicR = currentR;
-          }
-          break;
-        case 'L':
-          currentR--;
-          currentL++;
-          if (currentL > unicL) {
-            unicL = currentL;
-          }
-          break;
-        case 'S':
-          break;
+    var numberLuckyTickets = 0;
+    for (var i = 0; i < 10; i++) {
+      for (var j = 0; j < 10; j++) {
+        if (amountFirstThreeNumbers - i - j > -1 && amountFirstThreeNumbers - i - j < 10) {
+          numberLuckyTickets++;
+        }
       }
     }
-    countUnicCells = unicR + unicL + 1;
+    numberLuckyTickets *= numberLuckyTickets;
     final time2 = DateTime.now();
     final diffTime =
         time2.difference(time1).inMilliseconds * SECONDS_IN_MILLISECONDS;
-    return Result(timeExecuting: diffTime, countUnicCells: countUnicCells);
+    return Result(
+        timeExecuting: diffTime, numberLuckyTickets: numberLuckyTickets);
   }
 }
