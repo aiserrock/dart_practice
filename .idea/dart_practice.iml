@@ -5,12 +5,16 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/dart_application_wtf/build" />
       <excludeFolder url="file://$MODULE_DIR$/dart_application_wtf/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/task2/dart_application_wtf/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/task2/dart_application_wtf/build" />
       <excludeFolder url="file://$MODULE_DIR$/task2/dart_application_wtf/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/task5/dart_application_wtf/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/task5/dart_application_wtf/build" />
       <excludeFolder url="file://$MODULE_DIR$/task5/dart_application_wtf/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/task3/dart_application_wtf/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/task3/dart_application_wtf/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/task3/dart_application_wtf/build" />
+      <excludeFolder url="file://$MODULE_DIR$/task4/dart_application_wtf/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/task4/dart_application_wtf/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/task4/dart_application_wtf/build" />
     </content>
